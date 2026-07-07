@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Performance - Estética Tavares</title>
+    <!-- Carrega o Tailwind CSS para o estilo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Carrega os Ícones (Lucide) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif; }
+    </style>
+</head>
+<body class="min-h-screen bg-[#09090b] text-gray-100 font-sans p-4 md:p-8">
+
+    <!-- Header / Brand Section -->
+    <div class="max-w-7xl mx-auto mb-10">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 border-b border-[#27272a] pb-6">
+            <div>
+                <div class="flex items-center gap-3 mb-2">
+                    <div class="w-2 h-8 bg-red-600 rounded-full"></div>
+                    <h1 class="text-3xl md:text-4xl font-bold tracking-tight text-white">
+                        Relatório de Performance
+                    </h1>
+                </div>
+                <h2 class="text-xl text-gray-400 ml-5">Estética Tavares</h2>
+            </div>
+            
+            <div class="flex flex-wrap gap-3 text-sm md:text-right">
+                <div class="bg-[#18181b] border border-[#27272a] px-4 py-2 rounded-lg">
+                    <span class="text-gray-500 block text-xs uppercase mb-1">Período</span>
+                    <span class="font-semibold text-white">29/06/26 a 05/07/26</span>
+                </div>
+                <div class="bg-[#18181b] border border-[#27272a] px-4 py-2 rounded-lg">
+                    <span class="text-gray-500 block text-xs uppercase mb-1">Plataforma</span>
+                    <span class="font-semibold text-[#1877F2]">Meta Ads</span>
+                </div>
+                <div class="bg-[#18181b] border border-red-900/30 px-4 py-2 rounded-lg border-l-4 border-l-red-600">
+                    <span class="text-gray-500 block text-xs uppercase mb-1">Objetivo</span>
+                    <span class="font-semibold text-white">Leitura dos primeiros sinais</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="max-w-7xl mx-auto space-y-8">
+        
+        <!-- Resumo Section -->
+        <div class="bg-[#18181b] border border-[#27272a] p-6 rounded-xl border-l-4 border-l-red-600">
+            <p class="text-lg text-gray-300 leading-relaxed">
+                Seguimos conduzindo as campanhas com foco na <strong class="text-white">leitura dos primeiros sinais de clientes novos</strong>. O período manteve a operação estável, com acompanhamento estratégico próximo dos principais indicadores para otimização do funil.
+            </p>
+        </div>
+
+        <!-- Metrics Grid -->
+        <div>
+            <h2 class="text-xl font-bold mb-5 flex items-center gap-2">
+                <i data-lucide="activity" class="w-6 h-6 text-red-500"></i>
+                Principais Indicadores
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                
+                <!-- Card Investimento -->
+                <div class="bg-[#18181b] border border-[#27272a] rounded-xl p-5 hover:border-red-600/50 transition-colors duration-300">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-gray-400 text-sm font-medium uppercase tracking-wider">Investimento</h3>
+                        <div class="p-2 bg-[#27272a] rounded-lg">
+                            <i data-lucide="dollar-sign" class="w-5 h-5 text-gray-300"></i>
+                        </div>
+                    </div>
+                    <div class="flex items-baseline gap-3">
+                        <span class="text-3xl font-bold text-white">R$ 398,68</span>
+                    </div>
+                </div>
+
+                <!-- Card Impressões -->
+                <div class="bg-[#18181b] border border-[#27272a] rounded-xl p-5 hover:border-red-600/50 transition-colors duration-300">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-gray-400 text-sm font-medium uppercase tracking-wider">Impressões</h3>
+                        <div class="p-2 bg-[#27272a] rounded-lg">
+                            <i data-lucide="eye" class="w-5 h-5 text-gray-300"></i>
+                        </div>
+                    </div>
+                    <div class="flex items-baseline gap-3">
+                        <span class="text-3xl font-bold text-white">31.180</span>
+                    </div>
+                </div>
+
+                <!-- Card Alcance -->
+                <div class="bg-[#18181b] border border-[#27272a] rounded-xl p-5 hover:border-red-600/50 transition-colors duration-300">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-gray-400 text-sm font-medium uppercase tracking-wider">Alcance</h3>
+                        <div class="p-2 bg-[#27272a] rounded-lg">
+                            <i data-lucide="users" class="w-5 h-5 text-gray-300"></i>
+                        </div>
+                    </div>
+                    <div class="flex items-baseline gap-3">
+                        <span class="text-3xl font-bold text-white">15.154</span>
+                    </div>
+                </div>
+
+                <!-- Card CTR -->
+                <div class="bg-[#18181b] border border-[#27272a] rounded-xl p-5 hover:border-red-600/50 transition-colors duration-300">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-gray-400 text-sm font-medium uppercase tracking-wider">CTR</h3>
+                        <div class="p-2 bg-[#27272a] rounded-lg">
+                            <i data-lucide="mouse-pointer-click" class="w-5 h-5 text-gray-300"></i>
+                        </div>
+                    </div>
+                    <div class="flex items-baseline gap-3">
+                        <span class="text-3xl font-bold text-white">0.9%</span>
+                    </div>
+                </div>
+
+                <!-- Card Cliques -->
+                <div class="bg-[#18181b] border border-[#27272a] rounded-xl p-5 hover:border-red-600/50 transition-colors duration-300">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-gray-400 text-sm font-medium uppercase tracking-wider">Cliques (Todos)</h3>
+                        <div class="p-2 bg-[#27272a] rounded-lg">
+                            <i data-lucide="mouse-pointer-click" class="w-5 h-5 text-gray-300"></i>
+                        </div>
+                    </div>
+                    <div class="flex items-baseline gap-3">
+                        <span class="text-3xl font-bold text-white">282</span>
+                    </div>
+                </div>
+
+                <!-- Card Cliques no Link -->
+                <div class="bg-[#18181b] border border-[#27272a] rounded-xl p-5 hover:border-red-600/50 transition-colors duration-300">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-gray-400 text-sm font-medium uppercase tracking-wider">Cliques no Link</h3>
+                        <div class="p-2 bg-[#27272a] rounded-lg">
+                            <i data-lucide="link-2" class="w-5 h-5 text-gray-300"></i>
+                        </div>
+                    </div>
+                    <div class="flex items-baseline gap-3">
+                        <span class="text-3xl font-bold text-white">174</span>
+                    </div>
+                </div>
+
+                <!-- Card Leads -->
+                <div class="bg-[#18181b] border border-[#27272a] rounded-xl p-5 hover:border-red-600/50 transition-colors duration-300">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-gray-400 text-sm font-medium uppercase tracking-wider">Leads / Contatos</h3>
+                        <div class="p-2 bg-[#27272a] rounded-lg">
+                            <i data-lucide="users" class="w-5 h-5 text-gray-300"></i>
+                        </div>
+                    </div>
+                    <div class="flex items-baseline gap-3">
+                        <span class="text-3xl font-bold text-white">29</span>
+                    </div>
+                </div>
+
+                <!-- Card CPL -->
+                <div class="bg-[#18181b] border border-[#27272a] rounded-xl p-5 hover:border-red-600/50 transition-colors duration-300">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-gray-400 text-sm font-medium uppercase tracking-wider">Custo por Lead</h3>
+                        <div class="p-2 bg-[#27272a] rounded-lg">
+                            <i data-lucide="dollar-sign" class="w-5 h-5 text-gray-300"></i>
+                        </div>
+                    </div>
+                    <div class="flex items-baseline gap-3">
+                        <span class="text-3xl font-bold text-white">R$ 13,75</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Qualitative Data Section -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-8">
+            
+            <!-- O que foi feito -->
+            <div class="bg-[#18181b] border border-[#27272a] p-6 rounded-xl flex flex-col h-full">
+                <h3 class="text-lg font-bold mb-4 flex items-center gap-2 text-white border-b border-[#27272a] pb-3">
+                    <i data-lucide="check-circle" class="w-5 h-5 text-emerald-500"></i>
+                    Execução da Semana
+                </h3>
+                <ul class="space-y-4 text-gray-300 flex-1">
+                    <li class="flex gap-3 items-start">
+                        <i data-lucide="arrow-right" class="w-5 h-5 text-red-500 shrink-0 mt-0.5"></i>
+                        <p>Criação de <strong>campanha de visitas ao perfil</strong> para construir público quente e reimpactá-los em conversão.</p>
+                    </li>
+                    <li class="flex gap-3 items-start">
+                        <i data-lucide="arrow-right" class="w-5 h-5 text-red-500 shrink-0 mt-0.5"></i>
+                        <p>Inclusão da <strong>lista de clientes (Lookalike 1%)</strong> como público-alvo para direcionar melhor a qualificação.</p>
+                    </li>
+                    <li class="flex gap-3 items-start">
+                        <i data-lucide="arrow-right" class="w-5 h-5 text-red-500 shrink-0 mt-0.5"></i>
+                        <p>Solicitação de <strong>novos criativos</strong> focados em PPF, lavagem detalhada e visitas ao perfil.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Leitura Estratégica -->
+            <div class="bg-[#18181b] border border-[#27272a] p-6 rounded-xl flex flex-col h-full">
+                <h3 class="text-lg font-bold mb-4 flex items-center gap-2 text-white border-b border-[#27272a] pb-3">
+                    <i data-lucide="lightbulb" class="w-5 h-5 text-yellow-500"></i>
+                    Leitura Estratégica
+                </h3>
+                <div class="flex-1 flex items-center">
+                    <p class="text-gray-300 text-lg leading-relaxed">
+                        Os movimentos realizados reforçam a <strong class="text-white">busca por eficiência e qualificação</strong>. Mesmo com variação no volume de leads, estamos focados em manter a base preparada, construindo públicos aquecidos para garantir a evolução qualitativa das próximas semanas.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Foco da Próxima Semana -->
+            <div class="bg-[#18181b] border border-[#27272a] p-6 rounded-xl flex flex-col h-full relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-red-600/10 rounded-full blur-3xl -mr-10 -mt-10"></div>
+                <h3 class="text-lg font-bold mb-4 flex items-center gap-2 text-white border-b border-[#27272a] pb-3 relative z-10">
+                    <i data-lucide="target" class="w-5 h-5 text-red-500"></i>
+                    Foco da Próxima Semana
+                </h3>
+                <ul class="space-y-4 text-gray-300 relative z-10">
+                    <li class="flex items-center gap-3">
+                        <div class="w-2 h-2 rounded-full bg-red-500"></div>
+                        Manter otimização contínua dos indicadores.
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <div class="w-2 h-2 rounded-full bg-red-500"></div>
+                        Reforçar frentes da leitura dos primeiros sinais.
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <div class="w-2 h-2 rounded-full bg-red-500"></div>
+                        Consolidar aprendizados para embasar ajustes.
+                    </li>
+                </ul>
+                <div class="mt-auto pt-6">
+                    <div class="p-4 bg-red-600/10 border border-red-600/20 rounded-lg text-sm text-red-200">
+                        <strong>Fechamento:</strong> Seguimos ajustando a rota conforme os aprendizados para manter a consistência e evolução.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Ponto de Atenção - Menos Chamativo -->
+        <div class="bg-[#18181b] border border-[#27272a] p-5 rounded-xl flex items-start gap-4">
+            <div class="p-2 bg-[#27272a] rounded-lg shrink-0">
+                <i data-lucide="triangle-alert" class="w-5 h-5 text-gray-400"></i>
+            </div>
+            <div>
+                <h3 class="text-gray-300 font-semibold text-base mb-1">Ponto de Atenção: Novos Criativos</h3>
+                <p class="text-gray-400 leading-relaxed text-sm">
+                    Reforçamos o pedido de envio dos novos criativos. A campanha atual está operando com um <strong>CTR de 0.9%</strong>, o que pode indicar fadiga das imagens. A renovação deste material ajudará a baratear o custo por clique e a escalar o volume de leads.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="text-center text-gray-600 text-sm pt-8 pb-4">
+            Gerado para Estética Tavares • Assessoria de Growth
+        </div>
+    </div>
+
+    <!-- Inicializa os ícones -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
